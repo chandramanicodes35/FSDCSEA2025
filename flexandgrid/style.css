@@ -1,0 +1,39 @@
+.container{
+    display:grid;
+    grid-template-columns: 200px 300px 400px 300px;
+    grid-template-rows: 200px 500px 200px;
+    border: 1px solid red;
+
+
+}
+.child1{
+    border: 1px dotted violet;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+
+}
+.child2{
+     border: 1px dotted rgb(130, 238, 166);
+    height: 300px;
+    width: 300px;
+    background-color: rgb(119, 0, 255);
+
+
+    
+}
+.child3{
+     border: 1px dotted rgb(238, 193, 130);
+    height: 300px;
+    width: 300px;
+    background-color: rgb(214, 16, 16);
+
+    
+}
+.child{
+     border: 1px dotted rgb(21, 16, 24);
+    height: 300px;
+    width: 300px;
+    background-color: rgb(188, 196, 196);
+
+}
