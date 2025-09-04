@@ -13,7 +13,7 @@ h2,h1,h3{
     background-color: brown;
     color: aquamarine;
  } */
-  p:nth-child(2){
+  p:nth-child(1){
     background-color: chartreuse;
     color: darkorange;
   }

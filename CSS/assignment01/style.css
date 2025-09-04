@@ -4,6 +4,10 @@
   grid-template-rows: 500px 500px 200px;
   border:1px solid red;
 }
+.header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 .child1{
   border:1px dotted violet;
   display: grid;
@@ -16,30 +20,22 @@
  height: 100px;
  width: 100px;
  background-color: aquamarine;
- margin-left: 10px;
- margin-top: 10px;
-
 }
 .child12{
   border: 1px solid cyan;
   height: 100px;
  width: 100px;
-background-color: chocolate;
-margin-top: 10px;
-}
+background-color: chocolate;}
 .child13{
   border:2px solid blueviolet;
   height: 100px;
  width: 100px;
-background-color: coral;
-margin-left: 10px;
-margin-top: 10px;}
+background-color: coral;}
 .child14{
   border: 2px solid greenyellow;
   height: 100px;
  width: 100px;
  background-color: crimson;
- margin-top: 10px;
 }
 .child2{
   border:1px dotted green;
